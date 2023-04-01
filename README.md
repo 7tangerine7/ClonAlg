@@ -30,3 +30,5 @@ The population is generated randomly by filling the bits with values 0 and 1.
 2. Calculation of the affinity of Ab antibodies to an antigen (affinity function)
 The antigen is the objective function F(x1, x2). 
 In this case, the affinity of each antibody will be calculated as the value of the objective function at the point whose coordinates are encoded in the antibody.
+
+Himmelblau's function
