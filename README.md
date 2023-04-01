@@ -45,3 +45,23 @@ Select from the C* population antibodies with improved affinity as a result of t
 7. Edit the population (rand function + immune operator edit). 
 Replace d antibodies with worse affinity with new randomly generated antibodies to maintain population diversity. 
 The worse the affinity of the antibody, the more likely it is to be replaced by a new one.
+
+## Results 
+
+* Himmelblau's function
+The result of the algorithm: (3.0026466852776252, 2.018511776569314)
+![image](https://user-images.githubusercontent.com/48069220/229287811-0c14fa66-4550-4924-9020-dfcc5465fd41.png)
+
+* $ z = x(e^{-x^2 - y^2) $
+The result of the algorithm: (-0.7167317191914844, 0.011737349447571432)
+![image](https://user-images.githubusercontent.com/48069220/229287874-8992f4bb-81fa-4fcb-b3e9-8d391dfac41e.png)
+
+* $ z = x^2 + y^2 - cos(18x) - cos(18y) $
+The result of the algorithm:(0.002825976091856086, -0.0016686920329790356)
+![image](https://user-images.githubusercontent.com/48069220/229287959-0480a762-4fc6-4e70-94e4-353c822592d9.png)
+![image](https://user-images.githubusercontent.com/48069220/229287966-48e41812-994f-423f-a48f-1920526883b5.png)
+
+* $ z = xy sin(x^2 + y^2) $
+The result of the algorithm: (0.9991855619396119, -0.9992041585932157)
+![image](https://user-images.githubusercontent.com/48069220/229288076-57e4c3d1-7f3d-49e4-b4ee-2b01c4bebadf.png)
+
