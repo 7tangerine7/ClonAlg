@@ -31,4 +31,17 @@ The population is generated randomly by filling the bits with values 0 and 1.
 The antigen is the objective function F(x1, x2). 
 In this case, the affinity of each antibody will be calculated as the value of the objective function at the point whose coordinates are encoded in the antibody.
 
-Himmelblau's function
+3. Cloning of the antibodies (immune operator clone).
+This creates a temporary population of clones C*, the size of which is determined by the previously entered parameter.
+
+4. Mutation of clones (immune operator mutate). 
+Change the values of randomly selected clones, the mutation probability is set by the parameter.
+
+5. Calculating the affinity of clones of the C* population.
+
+6. Select the clones and replace them with the appropriate antibodies (immune operator select + replace function). 
+Select from the C* population antibodies with improved affinity as a result of the mutation, replace with them the corresponding antibodies from which the clones were made.
+
+7. Edit the population (rand function + immune operator edit). 
+Replace d antibodies with worse affinity with new randomly generated antibodies to maintain population diversity. 
+The worse the affinity of the antibody, the more likely it is to be replaced by a new one.
