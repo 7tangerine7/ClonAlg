@@ -54,7 +54,7 @@ The result of the algorithm: (3.0026466852776252, 2.018511776569314)
 
 ![image](https://user-images.githubusercontent.com/48069220/229287811-0c14fa66-4550-4924-9020-dfcc5465fd41.png)
 
-* $z = x \dot e^{-x^2 - y^2}$
+* $z = x \cdot e^{-x^2 - y^2}$
 
 The result of the algorithm: (-0.7167317191914844, 0.011737349447571432)
 
@@ -67,7 +67,7 @@ The result of the algorithm:(0.002825976091856086, -0.0016686920329790356)
 ![image](https://user-images.githubusercontent.com/48069220/229287959-0480a762-4fc6-4e70-94e4-353c822592d9.png)
 
 
-* $z = x \dot y \dot sin(x^2 + y^2)$
+* $z = x \cdot y \cdot sin(x^2 + y^2)$
 
 The result of the algorithm: (0.9991855619396119, -0.9992041585932157)
 ![image](https://user-images.githubusercontent.com/48069220/229288076-57e4c3d1-7f3d-49e4-b4ee-2b01c4bebadf.png)
